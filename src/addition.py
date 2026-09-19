@@ -5,3 +5,5 @@ def test_add():
     assert add(1, 2) == 3
     assert add(-1, 1) == 0
     assert add(1, 4) == 5
+    # wrong data
+    assert add(1,10) == 6
